@@ -135,6 +135,12 @@ a{
 .facebook:hover,.twitter:hover,.gp:hover,.instagram:hover,.behance:hover{
     background-position-y: -56px;
 }
+@media screen and (max-width: 1024px){
+    #product{
+        left:0;
+        top:550px;
+    }
+}
 
 
 
