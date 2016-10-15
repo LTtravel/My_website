@@ -39,12 +39,14 @@ a{
     height: 77px;
     background: url("../img/search.png");
     float: right;
+    cursor: pointer;
 }
 .close{
     height: 50px;
     width: 50px;
     display: inline-block;
     background: url("../img/close.png");
+    cursor: pointer;
 }
 #person .close,#product .close{
     float: right;
@@ -135,12 +137,50 @@ a{
 .facebook:hover,.twitter:hover,.gp:hover,.instagram:hover,.behance:hover{
     background-position-y: -56px;
 }
+/*skill-percent*/
+#skill-percent{
+    background: #FFFFFF;
+}
 @media screen and (max-width: 1024px){
     #product{
         left:0;
         top:550px;
     }
+    #person  img{
+        height: 30%;
+        width: 30%;
+    }
+    .person-button li{
+        width: 15%;
+        height: 15%;
+        margin-right: 5%;
+        background-size: cover;
+    }
 }
+@media screen and (max-width: 768px){
+    #head{
+        height: 120px;
+        font-size: 3.0rem;
+        text-align: center;
+        line-height: 120px;
+        color: #FFF;
+        font-weight: 400;
+        font-family:inherit;
+    }
+    #search{
+        width: 60px;
+        height: 60px;
+        background-position: -12px -10px;
+    }
+    #person,#product{
+        width: 100%;
+    }
+    #person img{
+        width: 20%;
+        height: 30%;
+    }
+}
+
 
 
 
